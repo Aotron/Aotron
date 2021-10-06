@@ -1,15 +1,3 @@
-//-----ESSA SCRIPT FOI TOTALMENTE DESENVOLVIDA PELO ZULTRA/ZEUS. DOU OS CRÉDITOS DESSA BASE-----//
-//-----PARA O MEU AMIGO AZTRO.-----//
-//-----CASO QUEIRA O ACESSO  A ESSA SCRIPT, PROCURE PELO ZEUS, OU PESQUISE PELO CANAL DO ZULTRA E ENTRE EM CONTATO!-----//
-//-----LEMBRANDO QUE É TOTALMENTE PROIBÍDO TIRAR O COMANDO DE "#CRÉDITOS" DO MENU E FAZER ALTERAÇÕES DENTRO DO ARQUIVO!-----//
-//-----POR FAVOR NÃO TIRE AS INFORMAÇÕES DE COMPRA TAMBÉM ("COMPRARBOT") ISSO É MUITO IMPORTANTE-----//
-//-----PRA EU TRAZER ATUALIZAÇÕES SEMPRE-----//
-//-----CASO VOCÊ NÃO TENHA COMPRADO ESSA SCRIPT COM O ZEUS, VOCÊ ESTARÁ SENDO VÍTIMA DE FALSIFICAÇÃO (QUE TAMBÉM É CRIME!)-----//
-
-//Zeus29cm wa.me//556993899391-----//
-//Grupo Oficial do *Zeus:* https://bit.ly/3z5HwUu-----//
-//Canal Oficial: https://youtube.com/c/ZULTRA_Vinizeus-----//
-
 const {
    WAConnection,
    MessageType,
@@ -41,12 +29,12 @@ const { removeBackgroundFromImageFile } = require('remove.bg')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Zeus29cm\n' 
+            + 'FN:Aotron\n' 
             + 'ORG: ❲████████████▒▒❳ 90% ZeusWorld;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=556993899391:+55 69 9389-9391\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=554298024135:+55 42 9802-4135\n' 
             + 'END:VCARD' 
-prefix = '#'
-name = "Zeus"
+prefix = '!'
+name = "Aotron"
 blocked = []   
 limitawal = 1
 memberlimit = 1
@@ -59,10 +47,10 @@ const O = "⭕️"
 /*------------------------------CONFIGURAÇÃO DE USUÁRIOS------------------------------*/
 
 /******* premium**********/
-const userpremium = ["556993899391@s.whatsapp.net","553199507778@s.whatsapp.net"] //ubah nomer kalian
+const userpremium = ["554298024135@s.whatsapp.net","554298073266@s.whatsapp.net"] //ubah nomer kalian
 /******* zeus gostoso**********/
-const ownerNumber = ["556993899391@s.whatsapp.net","556993899391@s.whatsapp.net"] 
-const vipNumber = ["556993899391@s.whatsapp.net", "556692300611@s.whatsapp.net",  "556892450570@s.whatsapp.net",  "559784031611@s.whatsapp.net",  "5516993865842@s.whatsapp.net"]
+const ownerNumber = ["554298024135@s.whatsapp.net","554298073266@s.whatsapp.net"] 
+const vipNumber = ["554298024135@s.whatsapp.net", "554298073266@s.whatsapp.net",  "556892450570@s.whatsapp.net",  "559784031611@s.whatsapp.net",  "5516993865842@s.whatsapp.net"]
 
 
 /*------------------------------CONFIGURAÇÃO DE API------------------------------*/
@@ -3271,7 +3259,6 @@ Legion of Gods 神 🇧🇱`
 					break
 				case 'marcar2': 
 				  if (!isGroup) return reply(ind.groupo())
-					if (!isGroupAdmins) return reply(ind.admin())
 					members_id = []
 					teks = (args.length > 1) ? body.slice(8).trim() : ''
 					teks += `${body.slice(8)}\n\n`
